@@ -5,3 +5,8 @@ provider "aws" {
 resource "aws_instance" "teste" {
   
 }
+
+resource "type" "name" {
+  
+}
+
