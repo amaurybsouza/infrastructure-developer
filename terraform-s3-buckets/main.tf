@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "armazenamento" {
   bucket = "bucket-teste-aws-terraform"
   acl = "private"
 
-  tags {
+  tags = {
     Name = "My bucket"
     Environment = "Dev"
   }
