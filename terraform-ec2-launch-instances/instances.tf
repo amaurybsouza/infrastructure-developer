@@ -24,6 +24,8 @@ resource "aws_instance" "example" {
 
 
 
+
+
 resource "type" "name" {
   
 }
